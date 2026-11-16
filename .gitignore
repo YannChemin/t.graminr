@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+
+# Documentation intermediates. Html.make writes these while building the
+# man page from t.graminr.md and normally removes them again; a build that
+# dies leaves them behind. The committed t.graminr.html is NOT one of them:
+# it is kept in sync with the .md on purpose.
+*.tmp.md
+*.tmp.html
+
+# Scratch outputs of an end-to-end run started inside the source tree
+*.memmap
+*.dat
