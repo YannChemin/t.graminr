@@ -1,0 +1,15 @@
+Tmin,1
+Topt,17
+Tmax,42
+LAI50,3
+a,5.75
+b,4.8
+c,0.008
+Rlow,22
+Rhigh,32
+LAIlow,1
+LAIhigh,2.5
+dr,3
+cr,2
+ct,2
+PAW,100
